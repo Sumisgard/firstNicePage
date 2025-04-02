@@ -5,6 +5,14 @@ html {
     font-family: Roboto;
 }
 
+button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 0px;
+    padding: 7px 25px;
+    color: #F9FAF8;
+}
+
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -194,6 +202,10 @@ body {
     justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+.inside button {
+    border: 2px solid;
 }
 
 footer {
